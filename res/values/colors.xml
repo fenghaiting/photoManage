@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grid_state_pressed">#BB7dbcd3</color>
+    <color name="grid_state_focused">#777dbcd3</color>
+    <color name="menu_grid">#747474</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFE049</color>
+    <color name="light_blue">#5CACEE</color>
+    <color name="white_gray">#AAAAAA</color>
+    <color name="white_gray_1">#D8D8D8</color>
+    <color name="white_gray_2">#FFFEFA</color>
+    <color name="white_gray_3">#b1b1b1</color>
+    <color name="bg_gray">#FFE3E3E7</color>
+    <color name="black_gray">#3b3c3c</color>
+    <color name="black_opacity_5">#7f000000</color>
+
+</resources>

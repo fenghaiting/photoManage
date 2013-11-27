@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white_gray"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/imageAnimate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/animate_description"
+        android:visibility="visible">
+    </ImageView>
+    
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@color/black_gray" >
+
+        <TextView
+            android:id="@+id/hot_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/text_hot"
+            android:textColor="@color/white"
+            android:textSize="18.0dip" />
+        
+        <TextView
+            android:id="@+id/latest_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/text_latest"
+            android:textColor="@color/white"
+            android:textSize="18.0dip" />
+        
+        <TextView
+            android:id="@+id/gallery_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/text_photo"
+            android:textColor="@color/white"
+            android:textSize="18.0dip" />
+        
+    </LinearLayout>
+
+    <View
+        android:id="@+id/cursor"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/yellow"
+        android:textIsSelectable="true" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/black_gray"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

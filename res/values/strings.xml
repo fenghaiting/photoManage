@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">相机360</string>
+    
+    <string name="app_description">应用描述</string>
+    <string name="image_description">照片描述</string>
+    <string name="animate_description">动画描述</string>
+    <string name="botton_description">按钮描述</string>
+    
+    <string name="upload_name"><u>\@nesslisss:</u></string>
+    
+    <string name="clear_cache_menu">清除缓存</string>
+    <string name="clear_cache_complete_toast">完成清除缓存</string>
+    <string name="lastest_photo_complete">没有最新照片</string>
+    <string name="hot_photo_complete">没有最热照片</string>
+    <string name="gallery_photo_complete">没有最新照片</string>
+    
+    <string name="image_detail">正在加载&#8230;</string>
+    
+    <string name="image_load_complete">照片加载完成</string>
+    <string name="image_load_error">照片加载失败</string>
+    
+    <string name="no_network_connection_toast">没有网络连接</string>
+    
+    <string name="border_top">Top</string>
+    <string name="border_bottom">Bottom</string>
+    
+    <string name="image_praise">赞：0</string>
+    
+    <string name="menu_top">青春宣言</string>
+    
+    <string name="text_hot">最热</string>
+    <string name="text_latest">最新</string>
+    <string name="text_photo">照片</string>
+    
+    <string name="header_refresh_desc">上拉刷新图标</string>
+    <string name="footer_refresh_desc">下拉刷新图标</string>
+    
+    <string name="pull_to_refresh_footer_pull_label">上拉刷新</string>
+    <string name="pull_to_refresh_footer_release_label">释放刷新</string>
+    <string name="pull_to_refresh_footer_refreshing_label">正在加载&#8230;</string>
+    <string name="pull_to_refresh_header_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_header_release_label">释放刷新</string>
+    <string name="pull_to_refresh_header_refreshing_label">正在加载&#8230;</string>
+
+</resources>
